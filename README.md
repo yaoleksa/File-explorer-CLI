@@ -30,20 +30,17 @@ pip install -e .[xlsx]
 ## 🔹 Usage
 
 ### Create a text file with all files 
-Open terminal and run the command ```fexplorer```
-=> Generates ```file_list.txt``` with all files in the current directory and subdirectories.
+Run `fexplorer` in the terminal to generate `file_list.txt`.
+
 ### Create an Excel file 
-Open terminal and run the command ```fexplorer --format xlsx```
-=> Generates ```file_list.xlsx``` with all files.
+`fexplorer --format xlsx` => `file_list.xlsx` with all files.
+
 ### Filter files by extension
-Open terminal and run the command ```fexplorer --ext py```
-=> Collects only files with ```.py``` extension.
+`fexplorer --ext py` => Collects only files with `.py` extension.
 ### Specify a custom output filename
-Open terminal and run the command ```fexplorer --fname my_files```
-=> Generates ```my_files.txt``` or ```my_files.xlsx``` depends on which file extension you use
+`fexplorer --fname my_files` => Generates `my_files.txt` or `my_files.xlsx` depends on which file extension you use
 ### Combined example
-Open terminal and run the command ```fexplorer --format xlsx --ext py --fname python_files```
-=> Generates ```python_files.xlsx``` containing all ```.py``` files.
+Open terminal and run the command `fexplorer --format xlsx --ext py --fname python_files` => Generates `python_files.xlsx` containing all `.py` files.
 
 ## 🔹 CLI Arguments
 
@@ -60,7 +57,7 @@ Open terminal and run the command ```fexplorer --format xlsx --ext py --fname py
 
 ## Examples
 
-```
+```bash
 # Simple text file with all files
 fexplorer
 
