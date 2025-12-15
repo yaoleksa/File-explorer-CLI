@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "fexplorer"
+version = "1.0.0"
+description = "Simple file explorer CLI tool"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+    { name = "yaoleksa" }
+]
+
+dependencies = []
+
+
+[project.optional-dependencies]
+xlsx = ["openpyxl"]
+
+
+[project.scripts]
+fexplorer = "fexplorer.cli:main"
